@@ -1,0 +1,148 @@
+body {
+    background-image: url("../Images/bgimage.jpg");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+/*
+footer { 
+     position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 5%;
+    width: 100%;
+  
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+} 
+
+*/
+
+h2{
+  color : blue ;
+}
+
+#header{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.logo{
+  width: 80px;
+  height: 80px;
+  background-color: tomato;
+}
+
+
+li{
+   margin:0px 20px 0px;
+    justify-content: initial;
+    text-decoration: none;
+}
+.nav-link{
+    color: black;
+}
+
+/* Text Animation effect */
+
+.body{
+   
+  color: whitesmoke;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 40%;
+    height: 40%;
+   padding:20px;
+  
+  }
+  h1{
+  
+    
+    font-size: 3em;
+    /*
+  > span {
+    position: relative;
+    display: inline-block;
+    color: aquamarine;
+    height: 1.25em;
+    vertical-align: bottom;
+    overflow:hidden ;
+    span {
+      display: block ;
+    animation: animationwords 2s infinite ;
+    }
+  }
+  */
+  }
+  .aboutme {
+   background:none;
+   color: white;
+   border: 1px white solid;
+
+  }
+  
+  .words{
+    position: relative;
+    display: inline-block;
+    height: 1.25em;
+    vertical-align: bottom;
+    overflow:hidden ;
+  }
+  
+  
+  .word1 {
+    display: block ;
+    animation: animationwords 5s infinite ease;
+  } 
+  .word2 {
+    display: block ;
+    animation: animationwords 5s infinite ease;
+  }
+
+
+  footer {
+   
+    background-color:white;
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    
+  }
+    
+    
+  @keyframes animationwords {
+    
+    0%{
+      transform: translateY(0%);
+    }
+    5%{
+      transform: translateY(0%);
+    }
+    25%{
+      transform: translateY(-100%);
+    }
+    50%{
+      transform: translateY(-200%);
+    }
+    
+    75%{
+      transform: translateY(-300%);
+    }
+  
+   100%{
+      transform: translateY(-400%);
+    }
+  
+  }

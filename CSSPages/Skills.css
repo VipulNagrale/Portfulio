@@ -1,0 +1,96 @@
+.logo{
+  width: 80px;
+  height: 80px;
+  background-color: tomato;
+}
+
+
+li{
+  margin:0px 20px 0px;
+    justify-content: initial;
+    text-decoration: none;
+}
+.nav-link{
+    color: black;
+}
+
+#header{
+  background-color: white;
+  margin-top: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+.footer {
+ 
+   background-color:white;
+   color: black;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+  
+   bottom: 0;
+   position: relative;
+   width: 100%;
+ }
+
+
+
+ /* ________________________________________________________________*/
+
+
+ .container{
+  height: max-content; 
+  display: block;
+  align-items: center;
+  justify-content: center;
+
+ }
+
+ .col-6{
+  display: grid ;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+.row{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.image{
+  padding: 5%;
+  margin: 5%;
+  height: 320px;
+  width: 400px;
+}
+
+.headline h2
+{
+  margin-top: 50px;
+  text-align: center;
+ font-weight: bold;
+ font-family:initial;
+}
+button{
+  background: none;
+  border: 1px black solid;
+ margin-top: 40px;
+margin-left: 40%;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.image:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

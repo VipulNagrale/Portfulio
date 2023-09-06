@@ -1,0 +1,81 @@
+
+
+
+
+.logo{
+    width: 80px;
+    height: 80px;
+    background-color: tomato;
+  }
+  
+  
+  li{
+     margin:0px 20px 0px;
+      justify-content: initial;
+      text-decoration: none;
+  }
+  .nav-link{
+      color: black;
+  }
+
+  #header{
+    background-color: white;
+    margin-top: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+ 
+
+  .footer {
+   
+     background-color:white;
+     color: black;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     height: 50px;
+     bottom: 0;
+ position: absolute;
+ width: 100%;
+     
+   }
+
+/* --------------------------------------------------------------- */
+
+
+   .container{
+    height: 500px;
+    width: 100%;
+   background-color: aliceblue;
+    display: inline-flex;
+    margin: 5%;
+  }
+
+  .image , .data {  
+    padding: 5%; 
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+  }
+
+  .myimage{
+    border: 1px black solid;
+    box-shadow: 5px 5px 2px rgb(185, 194, 185);
+  }
+
+  .myimage:hover{
+    transform: scale(1.2);
+
+  }
+
+
+
+
